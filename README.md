@@ -29,24 +29,9 @@ PSU: Silverstone SST-ST45SF-G 450w SFX
 
 
 
-Phase 1: Hardware Assembly & BIOS Configuration
-1. Assembly Notes (Jonsbo N1)
+Phase 1:BIOS Configuration
 
-Airflow: Ensure the Noctua NH-L9i fan is pushing air towards the CPU. The Jonsbo N1 has limited airflow; ensure the rear 140mm fan is set to exhaust.
-
-SATA Cabling: Connect the 5 SATA cables from the Jonsbo backplane to your ASRock H270M-ITX/ac. Connect your 2.5Gbps LAN card to the single PCIe slot.
-
-Drive Placement:
-
-Slots 1-2: WD Red 6TB (Data)
-
-Slot 3: WD Red 8TB (Parity - Must be the largest drive)
-
-Slot 4: Seagate 2TB (Backups)
-
-M.2 Slot (Motherboard): Samsung 256GB NVMe (OS)
-
-2. BIOS/UEFI Settings Before installing software, boot into BIOS (F2 or Del):
+BIOS/UEFI Settings Before installing software, boot into BIOS (F2 or Del):
 
 Advanced > CPU Configuration: Enable Intel Virtualization Technology (VT-x) and VT-d.
 
